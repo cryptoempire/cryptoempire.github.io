@@ -1,6 +1,10 @@
 body {
   background-image: url(background-image.jpg);
   background-size: cover;
+  background-position: center center;
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #center-text {
@@ -9,6 +13,7 @@ body {
   font-size: 25px;
   padding-top: 310px;
   padding-bottom: 18px;
+  color: white;
 }
 
 .btn-warning {
